@@ -1,0 +1,146 @@
+{
+    "adamant": {
+        "increase": "attack",
+        "decrease": "special-attack",
+        "likes-flavor": "spicy",
+        "dislikes-flavor": "dry"
+    },
+    "bashful": {
+        "increase": null,
+        "decrease": null,
+        "likes-flavor": null,
+        "dislikes-flavor": null
+    },
+    "bold": {
+        "increase": "defense",
+        "decrease": "attack",
+        "likes-flavor": "sour",
+        "dislikes-flavor": "spicy"
+    },
+    "brave": {
+        "increase": "attack",
+        "decrease": "speed",
+        "likes-flavor": "spicy",
+        "dislikes-flavor": "bitter"
+    },
+    "calm": {
+        "increase": "special-defense",
+        "decrease": "attack",
+        "likes-flavor": "bitter",
+        "dislikes-flavor": "spicy"
+    },
+    "careful": {
+        "increase": "special-defense",
+        "decrease": "special-attack",
+        "likes-flavor": "bitter",
+        "dislikes-flavor": "dry"
+    },
+    "docile": {
+        "increase": null,
+        "decrease": null,
+        "likes-flavor": null,
+        "dislikes-flavor": null
+    },
+    "gentle": {
+        "increase": "special-defense",
+        "decrease": "defense",
+        "likes-flavor": "bitter",
+        "dislikes-flavor": "sour"
+    },
+    "hardy": {
+        "increase": null,
+        "decrease": null,
+        "likes-flavor": null,
+        "dislikes-flavor": null
+    },
+    "hasty": {
+        "increase": "speed",
+        "decrease": "defense",
+        "likes-flavor": "dry",
+        "dislikes-flavor": "sour"
+    },
+    "impish": {
+        "increase": "defense",
+        "decrease": "special-attack",
+        "likes-flavor": "sour",
+        "dislikes-flavor": "dry"
+    },
+    "jolly": {
+        "increase": "speed",
+        "decrease": "special-attack",
+        "likes-flavor": "dry",
+        "dislikes-flavor": "bitter"
+    },
+    "lax": {
+        "increase": "defense",
+        "decrease": "special-defense",
+        "likes-flavor": "sour",
+        "dislikes-flavor": "bitter"
+    },
+    "lonely": {
+        "increase": "attack",
+        "decrease": "defense",
+        "likes-flavor": "spicy",
+        "dislikes-flavor": "sour"
+    },
+    "mild": {
+        "increase": "special-attack",
+        "decrease": "defense",
+        "likes-flavor": "dry",
+        "dislikes-flavor": "sour"
+    },
+    "modest": {
+        "increase": "special-attack",
+        "decrease": "attack",
+        "likes-flavor": "dry",
+        "dislikes-flavor": "spicy"
+    },
+    "naive": {
+        "increase": "speed",
+        "decrease": "special-defense",
+        "likes-flavor": "dry",
+        "dislikes-flavor": "bitter"
+    },
+    "naughty": {
+        "increase": "attack",
+        "decrease": "special-defense",
+        "likes-flavor": "spicy",
+        "dislikes-flavor": "bitter"
+    },
+    "quiet": {
+        "increase": "special-attack",
+        "decrease": "speed",
+        "likes-flavor": "dry",
+        "dislikes-flavor": "bitter"
+    },
+    "rash": {
+        "increase": "special-attack",
+        "decrease": "special-defense",
+        "likes-flavor": "dry",
+        "dislikes-flavor": "bitter"
+    },
+    "relaxed": {
+        "increase": "defense",
+        "decrease": "speed",
+        "likes-flavor": "sour",
+        "dislikes-flavor": "bitter"
+    },
+    "sassy": {
+        "increase": "special-defense",
+        "decrease": "speed",
+        "likes-flavor": "bitter",
+        "dislikes-flavor": "bitter"
+    },
+    "serious": {
+        "increase": null,
+        "decrease": null,
+        "likes-flavor": null,
+        "dislikes-flavor": null
+    },
+    "timid": {
+        "increase": "speed",
+        "decrease": "attack",
+        "likes-flavor": "dry",
+        "dislikes-flavor": "spicy"
+    }
+}

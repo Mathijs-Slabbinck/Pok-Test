@@ -1,0 +1,34 @@
+.width{
+    padding: 1vw;
+}
+
+.width2{
+    padding: 2vw;
+}
+
+.width3{
+    padding: 3vw;
+}
+
+.width4{
+    padding: 4vw;
+}
+
+.red{
+    color: red;
+    font-weight: bold;
+}
+
+.green{
+    color: green;
+    font-weight: bold;
+}
+
+.blue{
+    color: blue;
+    font-weight: bold;
+}
+
+.bold{
+    font-weight: bold;
+}

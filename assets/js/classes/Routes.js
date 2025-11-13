@@ -1,0 +1,3 @@
+class Route extends Location {
+
+}
