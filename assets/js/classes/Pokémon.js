@@ -16,7 +16,7 @@ class Pokémon extends Entity {
         heldItems,
         height,
         weight,
-        sprite,
+        sprites,
         moves,
         baseStats,
         ivstats,
@@ -36,12 +36,13 @@ class Pokémon extends Entity {
         this._heldItems = heldItems;
         this._height = height;
         this._weight = weight;
-        this._sprite = sprite;
+        this._sprite = sprites;
         this._moves = moves;
         this._baseStats = baseStats;
         this._IvStats = ivstats;
         this._EvStats = evStats;
         this._nature = nature;
+        this._effects = effects;
     }
 
     get Generation() {
@@ -84,8 +85,8 @@ class Pokémon extends Entity {
         return this._weight;
     }
 
-    get Sprite() {
-        return this._sprite;
+    get Sprites() {
+        return this._sprites;
     }
 
     get Moves() {
