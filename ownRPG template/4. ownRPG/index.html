@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG</title>
+    <link rel="shortcut icon" href="assets/media/favicon.ico" type="image/x-icon">
+    <link href="assets/css/reset.css" rel='stylesheet' type='text/css'>
+    <link href="assets/css/screen.css" rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet">
+    <!--
+    <audio autoplay loop>
+        <source src="assets/media/backgroundCalm.mp3" type="audio/mp3">
+        Your browser does not support audio!
+    </audio>
+    -->
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>survival RPG</h1>
+        </header>
+        <aside id="menu">
+            <ul>
+                <li><p id="titleMenu">menu</p></li>
+                <li><P class="toggMusic secMenu">music</p></li>
+                <li><p class="toggMusic" id="ofOrOnMusic">off</p><li>
+                <!--
+                    <li><p id="soundOn">sound on</p></li>
+                    <li><p id="soundOff">sound off</p></li>
+                -->
+            </ul>
+        </aside>
+        <main>
+            <table id="inventory">
+                <tr>
+                    <th><img src="images/moreSpeed.png" alt="more speed icon" class="smallIcon"></th>
+                    <th><img src="images/woodIcon.png" alt="wood icon" class="smallIcon"/></th>
+                    <th><img src="images/rockIcon.png" alt="rock icon" class="smallIcon"/></th>
+                    <th><img src="images/fishIcon.png" alt="fish icon" class="smallIcon"/></th>
+                    <th><img src="images/coinIcon.png" alt="coins icon" class="smallIcon"/></th>
+                    <th><img src="images/doubleLoot.png" alt="double loot icon" class="smallIcon"></th>
+                </tr>
+                <tr>
+                    <td id="checkedOrNot1">&#10008;</td>
+                    <td id="woodDisp">0</td>
+                    <td id="rockDisp">0</td>
+                    <td id="fishDisp">0</td>
+                    <td id="coinDisp">0</td>
+                    <td id="checkedOrNot2">&#10008;</td>
+                <tr>
+            </table>
+            <canvas id="game" width="500px" height="500px"></canvas>
+            <div class="hidden" id="merchant">
+                <img src="images/merchantGui.png" alt="the merchant's trades" id="merchantTrades">
+                <img src="images/soldOut.png" alt="sold out" id="soldOut" class="hidden">
+                <img src="images/approve1.png" class="buttonToCLick" alt="approve trade 1" id="approveTrade1">
+                <img src="images/approve2.png" class="buttonToCLick" alt="approve trade 2" id="approveTrade2">
+                <img src="images/approve3.png" class="buttonToCLick" alt="approve trade 3" id="approveTrade3">
+                <img src="images/close.png" class="buttonToCLick" alt="close merchants trades" id="closeMerchant">
+            </div>
+            <div class="hidden" id="mage">
+                <img src="images/soldOut.png" alt="sold out" id="soldOut2" class="hidden">
+                <img src="images/upgradeSpeed.png" class="buttonToCLick" alt="speed upgrade" id="approveSkill1">
+                <img src="images/upgradeLoot.png" class="buttonToCLick" alt="loot upgrade" id="approveSkill2">
+                <img src="images/close2.png" class="buttonToCLick" alt="close mage trades" id="closeMage">
+            </div>
+        </main>
+
+        <footer>
+            <p>&copy; Copyright Mathijs Slabbinck</p>
+        </footer>
+    </div>
+    <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    <script type="text/javascript" src="assets/js/common.js"></script>
+    <script type="text/javascript" src="assets/js/logic-grid.js"></script>
+</body>
+</html>

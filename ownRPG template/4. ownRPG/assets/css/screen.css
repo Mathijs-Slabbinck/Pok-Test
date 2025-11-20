@@ -1,0 +1,124 @@
+header{
+    text-align: center;
+    background-color: darkgreen;
+}
+
+h1{
+    padding: 2vh;
+    color: white;
+    text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;
+    font-family: 'Black Ops One', cursive;
+    font-size: 300%;
+}
+
+#titleMenu{
+    background-color: darkblue;
+    color: white;
+}
+
+aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    text-align: center;
+    cursor: pointer;
+}
+
+.secMenu{
+    background-color: darkcyan;
+    color: white;
+}
+
+li #ofOrOnMusic:hover{
+    background-color: #555;
+    color: white;
+}
+
+aside li p {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+aside li p.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+canvas{
+    border: 2px solid black;
+}
+
+main{
+    text-align: center;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+
+th, td{
+    padding: 0 2vw 0 2vw;
+}
+
+#inventory{
+    margin: 2vh auto 0 auto;
+}
+
+.smallIcon{
+    width: 40px;
+    height: 40px;
+}
+
+.hidden{
+    display: none;
+}
+
+#merchant{
+    border: 2px solid black;
+    width: 500px;
+    height: 690px;
+    margin: 2vh auto 0 auto;
+}
+#mage{
+    border: 2px solid black;
+    width: 500px;
+    height: 306px;
+    margin: 2vh auto 0 auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: darkred;
+    border-radius: 100px;
+}
+
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: darkgoldenrod;
+    border-radius: 100px;
+}
+
+.buttonToCLick:hover{
+    cursor: pointer;
+}
+
+#inventory{
+    margin-bottom: 50px;
+}
